@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HORDA · Press kit</title>
+<meta name="description" content="HORDA: shooter táctico de extracción 3 vs 3 vs la Horda. Press kit oficial: ficha técnica, descripción, personajes, capturas, logos y contacto.">
+<meta property="og:title" content="HORDA · Press kit">
+<meta property="og:description" content="3 vs 3 vs la Horda. Una ciudad muerta. Tres cajas para escapar.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://joseortizz1807.github.io/horda-presskit/img/og.jpg">
+<meta property="og:url" content="https://joseortizz1807.github.io/horda-presskit/">
+<meta property="og:video" content="https://joseortizz1807.github.io/horda-presskit/video/HORDA_trailer.mp4">
+<link rel="canonical" href="https://joseortizz1807.github.io/horda-presskit/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0D0F14">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0D0F14; --bg2:#151922; --card:#1C212B; --line:#2A303C;
+  --text:#EDE6DA; --muted:#A9B0BC; --orange:#FF6A2B; --green:#9BE15D; --blue:#7FB2FF;
+  --display:'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
+  --cond:'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --body:'Barlow', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--orange)}
+a:hover{color:#ff8a57}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);font-weight:400;letter-spacing:1px;line-height:1;margin:0}
+h2{font-size:clamp(44px,6vw,72px)}
+h3{font-size:30px}
+.eyebrow{font-family:var(--cond);font-weight:700;font-size:16px;letter-spacing:4px;text-transform:uppercase;color:var(--orange);margin:0 0 10px}
+section{padding:88px 0;border-top:1px solid var(--line)}
+section:nth-of-type(even){background:var(--bg2)}
+
+/* Navegación */
+nav{position:sticky;top:0;z-index:20;background:rgba(13,15,20,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:24px;height:60px}
+nav .brand{font-family:var(--display);font-size:30px;color:var(--text);text-decoration:none;letter-spacing:2px}
+nav .brand span{color:var(--orange)}
+nav ul{display:flex;gap:20px;list-style:none;margin:0 0 0 auto;padding:0;overflow-x:auto;scrollbar-width:none}
+nav ul::-webkit-scrollbar{display:none}
+nav a.nl{font-family:var(--cond);font-weight:600;font-size:16px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);text-decoration:none;white-space:nowrap}
+nav a.nl:hover{color:var(--text)}
+
+/* Portada */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;padding:0 0 72px;border:0;overflow:hidden}
+.hero .bg{position:absolute;inset:0;background:url(img/screens/horda-edificio-colapsando.jpg) center/cover no-repeat}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--bg) 6%,rgba(13,15,20,.72) 45%,rgba(13,15,20,.25) 100%)}
+.hero .wrap{position:relative;width:100%}
+.hero img.logo{width:min(560px,86vw);filter:drop-shadow(0 8px 30px rgba(0,0,0,.6))}
+.hero .tag{font-family:var(--cond);font-weight:600;font-size:clamp(22px,3vw,30px);margin:18px 0 28px;max-width:720px}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--cond);font-weight:700;font-size:18px;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;padding:14px 26px;border-radius:6px;border:2px solid var(--orange);color:#1A0E06;background:var(--orange)}
+.btn:hover{background:#ff8a57;color:#1A0E06}
+.btn.ghost{background:transparent;color:var(--text);border-color:rgba(237,230,218,.5)}
+.btn.ghost:hover{border-color:var(--text);color:var(--text)}
+.btn.off{opacity:.55;pointer-events:none}
+
+/* Ficha + descripción */
+.grid2{display:grid;grid-template-columns:340px 1fr;gap:56px;align-items:start}
+.facts{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:28px;position:sticky;top:84px}
+.facts dl{margin:0}
+.facts dt{font-family:var(--cond);font-weight:700;font-size:14px;letter-spacing:2.5px;text-transform:uppercase;color:var(--orange);margin-top:16px}
+.facts dt:first-child{margin-top:0}
+.facts dd{margin:2px 0 0;font-size:17px}
+.prose p{margin:0 0 18px;color:#D6D9DE}
+.prose h3{margin:36px 0 14px}
+.lead{font-size:22px;color:var(--text)!important}
+.features{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.features li{display:grid;grid-template-columns:28px 1fr;gap:12px;color:#D6D9DE}
+.features li::before{content:"";width:12px;height:12px;margin-top:9px;background:var(--green);transform:rotate(45deg)}
+.features b{color:var(--text)}
+
+/* Tráiler */
+.video{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#000 url(img/screens/horda-horda.jpg) center/cover;border:1px solid var(--line)}
+.video .soon{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:rgba(13,15,20,.66);text-align:center;padding:20px}
+.video .soon b{font-family:var(--display);font-size:clamp(40px,6vw,72px);font-weight:400}
+.video iframe,.video video{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+
+/* Galería */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:36px}
+.gallery a{display:block;border-radius:8px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/8;background:#000}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.gallery a:hover img{transform:scale(1.05)}
+.gallery a.wide{grid-column:span 2;aspect-ratio:auto}
+
+/* Personajes */
+.heroes{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:36px}
+.hc{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.hc img{aspect-ratio:4/5;object-fit:cover;width:100%;border-bottom:3px solid var(--c)}
+.hc .in{padding:14px 16px 18px}
+.hc h3{font-size:30px;color:var(--c)}
+.hc .role{font-family:var(--cond);font-weight:600;font-size:15px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin:2px 0 10px}
+.hc .wp{font-size:15px;color:var(--text);margin:0 0 8px}
+.hc ul{list-style:none;margin:0;padding:0;font-size:14.5px;color:#C9CED6;line-height:1.5}
+.hc ul li span{display:inline-block;width:20px;font-family:var(--cond);font-weight:700;color:var(--orange)}
+.horde{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+.horde .hc img{aspect-ratio:4/3}
+
+/* Mecánicas */
+.mech{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.mc{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.mc img{aspect-ratio:16/8;object-fit:cover;width:100%}
+.mc .in{padding:18px 20px 22px}
+.mc .n{font-family:var(--display);font-size:22px;color:var(--orange)}
+.mc p{margin:6px 0 0;color:#C9CED6;font-size:16.5px}
+.strats{margin-top:28px;width:100%;border-collapse:collapse;font-size:16px}
+.strats th,.strats td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+.strats th{font-family:var(--cond);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:14px;color:var(--muted)}
+.code{font-family:var(--cond);font-weight:700;letter-spacing:3px;color:var(--green);white-space:nowrap}
+
+/* Presentación */
+.deck{position:relative;margin-top:32px;aspect-ratio:16/9;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#000}
+.deck img{width:100%;height:100%;object-fit:contain}
+.deck button{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(13,15,20,.7);color:var(--text);font-size:28px;cursor:pointer}
+.deck .dp{left:14px}.deck .dn{right:14px}
+.deck button:hover{background:var(--orange);color:#1A0E06}
+.deckbar{display:flex;align-items:center;gap:18px;margin-top:16px}
+.deckbar span{font-family:var(--cond);font-weight:700;letter-spacing:2px;color:var(--muted);min-width:64px}
+.thumbs{flex:1;display:flex;gap:8px;overflow-x:auto;padding:4px 0;scrollbar-width:thin}
+.thumbs button{flex:none;width:96px;aspect-ratio:16/9;padding:0;border:2px solid transparent;border-radius:4px;overflow:hidden;cursor:pointer;background:#000;opacity:.6}
+.thumbs button.on{border-color:var(--orange);opacity:1}
+.thumbs img{width:100%;height:100%;object-fit:cover}
+
+/* Logos */
+.logos{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px}
+.lg{border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.lg .pv{height:180px;display:flex;align-items:center;justify-content:center;padding:22px}
+.lg .pv img{max-height:136px;width:auto}
+.lg a{font-family:var(--cond);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;font-size:15px;text-decoration:none;padding:12px 16px;border-top:1px solid var(--line);background:var(--card)}
+.checker{background:#2A2F39}
+.light{background:#EDE6DA}
+
+/* Equipo / créditos */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px 26px}
+.box h3{font-size:28px;margin-bottom:10px}
+.box p,.box li{color:#C9CED6;font-size:16.5px}
+.box ul{margin:0;padding-left:18px}
+.ph{color:var(--green)}
+
+footer{padding:44px 0;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+
+/* Visor de imágenes */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(5,6,9,.94);display:none;align-items:center;justify-content:center;padding:24px}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:86vh;border-radius:6px}
+.lb button{position:absolute;background:rgba(255,255,255,.08);color:var(--text);border:1px solid rgba(255,255,255,.2);border-radius:6px;font-size:26px;width:52px;height:52px;cursor:pointer}
+.lb .x{top:18px;right:18px}.lb .p{left:18px;top:50%}.lb .nx{right:18px;top:50%}
+.lb .dl{position:absolute;bottom:20px;font-family:var(--cond);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}
+
+@media (max-width:1000px){
+  .heroes{grid-template-columns:repeat(3,1fr)}
+  .logos{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:820px){
+  body{font-size:17px}
+  section{padding:64px 0}
+  .grid2{grid-template-columns:1fr;gap:32px}
+  .facts{position:static}
+  .gallery,.mech,.cols,.horde{grid-template-columns:1fr 1fr}
+  .gallery a.wide{grid-column:span 2}
+  nav ul{gap:16px}
+}
+@media (max-width:540px){
+  .deckbar{flex-wrap:wrap}.thumbs{order:3;flex-basis:100%}
+  .heroes,.gallery,.mech,.cols,.horde,.logos{grid-template-columns:1fr}
+  .gallery a.wide{grid-column:auto}
+  .hero{min-height:80vh}
+  .strats{font-size:14.5px}
+  .strats td:nth-child(3),.strats th:nth-child(3){display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.gallery img{transition:none}}
+</style>
+</head>
+<body>
+
+<nav aria-label="Secciones">
+  <div class="wrap">
+    <a class="brand" href="#top">HORDA<span>.</span></a>
+    <ul>
+      <li><a class="nl" href="#ficha">Ficha</a></li>
+      <li><a class="nl" href="#trailer">Tráiler</a></li>
+      <li><a class="nl" href="#capturas">Capturas</a></li>
+      <li><a class="nl" href="#personajes">Personajes</a></li>
+      <li><a class="nl" href="#mecanicas">Mecánicas</a></li>
+      <li><a class="nl" href="#presentacion">Presentación</a></li>
+      <li><a class="nl" href="#logos">Logos</a></li>
+      <li><a class="nl" href="#equipo">Equipo</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="bg" role="img" aria-label="Un edificio del barrio colapsando en medio de una pelea"></div>
+  <div class="wrap">
+    <p class="eyebrow">Press kit · Prototipo jugable</p>
+    <h1><img class="logo" src="img/logo/horda-logo.png" alt="HORDA"></h1>
+    <p class="tag">Shooter táctico de extracción en tercera persona. Dos escuadrones de 3 héroes, un barrio que se cae a pedazos y una horda que los caza a todos.</p>
+    <div class="btns">
+      <a class="btn" href="#trailer">▶ Ver tráiler</a>
+      <a class="btn ghost" href="download/HORDA_presskit.zip" download>Descargar press kit (ZIP · 6 MB)</a>
+      <a class="btn ghost" href="download/HORDA_presentacion.pdf" target="_blank" rel="noopener">Presentación (PDF)</a>
+      <a class="btn ghost off" href="#" aria-disabled="true" id="itch">Jugar en itch.io · próximamente</a>
+    </div>
+  </div>
+</header>
+
+<section id="ficha">
+  <div class="wrap grid2">
+    <aside class="facts" aria-label="Ficha técnica">
+      <dl>
+        <dt>Desarrollador</dt><dd id="studio">Jose Daniel Ortiz Quintero · <a href="https://www.instagram.com/j.gamesindustries/" target="_blank" rel="noopener">@j.gamesindustries</a></dd>
+        <dt>Universidad</dt><dd>Ingeniería Multimedia · Universidad de San Buenaventura Cali</dd>
+        <dt>Origen</dt><dd>Cali, Colombia</dd>
+        <dt>Estado</dt><dd>Prototipo jugable · noviembre de 2026</dd>
+        <dt>Plataforma</dt><dd>PC (Windows)</dd>
+        <dt>Género</dt><dd>Shooter táctico de extracción · PvPvE</dd>
+        <dt>Jugadores</dt><dd>3 vs 3 con bots · multijugador en red local</dd>
+        <dt>Motor</dt><dd>Unity 6 · Universal Render Pipeline</dd>
+        <dt>Idioma</dt><dd>Español</dd>
+        <dt>Clasificación</dt><dd>M 17+ (violencia contra zombis)</dd>
+        <dt>Precio</dt><dd>Demo gratuita</dd>
+        <dt>Descargas</dt><dd><a href="download/HORDA_presskit.zip" download>Press kit (ZIP)</a><br><a href="download/HORDA_presentacion.pdf" target="_blank" rel="noopener">Presentación (PDF)</a><br><a href="video/HORDA_trailer.mp4" download>Tráiler 1080p (MP4)</a><br><a href="video/HORDA_trailer_vertical.mp4" download>Tráiler vertical 9:16 (MP4)</a></dd>
+      </dl>
+    </aside>
+    <div class="prose">
+      <p class="eyebrow">Descripción</p>
+      <h2>Una ciudad muerta. Tres cajas para escapar.</h2>
+      <p class="lead" style="margin-top:22px">HORDA mezcla la puntería táctica de Resident Evil, el caos cooperativo de Helldivers 2 y la destrucción de The Finals en partidas cortas de 3 contra 3… contra la Horda.</p>
+      <p>Del cielo caen cajas de suministros. Dos escuadrones, los <b>Supervivientes</b> y <b>La Plaga</b>, pelean por cada una y tienen que llevarla a una zona de extracción: en la calle, dentro de un edificio o en una azotea. El primero que extrae tres cajas gana.</p>
+      <p>En medio está la Horda, un tercer bando controlado por la IA. Los zombis oyen cada disparo, cada explosión y cada derrumbe, y persiguen al equipo que va ganando. Hacer ruido sirve para ganar una pelea y también para atraer a la mitad del barrio.</p>
+
+      <h3>Historia</h3>
+      <p>El Barrio quedó en cuarentena hace semanas. Sin luz, con lluvia y con los letreros de neón todavía encendidos, lo único que entra son las cajas de suministros que lanzan desde el aire. Los Supervivientes las necesitan para salir. La Plaga, para quedarse con todo. Entre los dos bandos hay diez héroes imposibles: una francotiradora, un mecha de asalto, una hechicera, un alien, un padrino de la mafia, un científico loco, un dios del Olimpo y un vikingo que no sabe morir.</p>
+
+      <h3>Características</h3>
+      <ul class="features">
+        <li><div><b>Disparo táctico.</b> Un tiro a la cabeza hace doble daño y uno a las piernas aturde. Al enemigo aturdido se le remata con una patada.</div></li>
+        <li><div><b>Estratagemas.</b> Mantienes Ctrl, tecleas un código de flechas y lanzas la baliza: bombardeos, napalm, una torreta o un reabastecimiento.</div></li>
+        <li><div><b>Destrucción por piezas.</b> Paredes y pisos se rompen por separado. Si vuelas el piso donde pelean, todos caen al de abajo, y lo que queda sin apoyo se desploma.</div></li>
+        <li><div><b>Una horda que escucha.</b> Hasta 80 zombis de 6 tipos que trepan fachadas, agarran, gritan para llamar a otros y explotan.</div></li>
+        <li><div><b>Verticalidad.</b> Cables para subir a las azoteas, pisos que se recorren y zonas de extracción en techos e interiores.</div></li>
+        <li><div><b>10 héroes, 10 formas de jugar.</b> Cada uno tiene arma propia, dos habilidades y una definitiva de película.</div></li>
+        <li><div><b>Caído, no muerto.</b> Un aliado te puede reanimar antes de que te desangres.</div></li>
+        <li><div><b>Multijugador en red local</b> y bots para completar los equipos.</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="trailer">
+  <div class="wrap">
+    <p class="eyebrow">Video</p>
+    <h2>Tráiler oficial</h2>
+    <div class="video" style="margin-top:32px" id="video">
+      <video controls preload="metadata" playsinline poster="video/poster.jpg" aria-label="Tráiler de HORDA, 57 segundos">
+        <source src="video/HORDA_trailer.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="btns" style="margin-top:20px">
+      <a class="btn ghost" href="video/HORDA_trailer.mp4" download>Descargar 1080p · 16:9</a>
+      <a class="btn ghost" href="video/HORDA_trailer_vertical.mp4" download>Descargar vertical · 9:16 (Reels)</a>
+    </div>
+    <p style="color:var(--muted);font-size:15px;margin-top:14px">57 s · capturas reales del juego · música y sonido sintetizados por el equipo, libres de derechos.</p>
+  </div>
+</section>
+
+<section id="capturas">
+  <div class="wrap">
+    <p class="eyebrow">Capturas del juego real · clic para ampliar</p>
+    <h2>Capturas</h2>
+    <div class="gallery" id="gallery">
+      <a class="wide" href="img/screens/horda-edificio-colapsando.jpg"><img loading="lazy" src="img/screens/horda-edificio-colapsando-thumb.jpg" alt="Un edificio colapsa mientras Morgana dispara su orbe"></a>
+      <a href="img/screens/horda-tiroteo.jpg"><img loading="lazy" src="img/screens/horda-tiroteo-thumb.jpg" alt="Tiroteo contra la horda en una calle"></a>
+      <a href="img/screens/horda-ataque-aereo.jpg"><img loading="lazy" src="img/screens/horda-ataque-aereo-thumb.jpg" alt="Aviso de ataque aéreo"></a>
+      <a href="img/screens/horda-estratagemas.jpg"><img loading="lazy" src="img/screens/horda-estratagemas-thumb.jpg" alt="Menú de estratagemas con códigos de flechas"></a>
+      <a href="img/screens/horda-horda.jpg"><img loading="lazy" src="img/screens/horda-horda-thumb.jpg" alt="Un gritón llama a la horda"></a>
+      <a href="img/screens/horda-griton.jpg"><img loading="lazy" src="img/screens/horda-griton-thumb.jpg" alt="Rayo de plasma contra los zombis"></a>
+      <a href="img/screens/horda-enemigo-tiene-la-caja.jpg"><img loading="lazy" src="img/screens/horda-enemigo-tiene-la-caja-thumb.jpg" alt="Aviso: el enemigo tiene la caja"></a>
+      <a href="img/screens/horda-barrio-neon.jpg"><img loading="lazy" src="img/screens/horda-barrio-neon-thumb.jpg" alt="El barrio de noche con letreros de neón"></a>
+      <a href="img/screens/horda-bombardeo.jpg"><img loading="lazy" src="img/screens/horda-bombardeo-thumb.jpg" alt="Bombardeo sobre una plaza"></a>
+      <a href="img/screens/horda-a-la-carga.jpg"><img loading="lazy" src="img/screens/horda-a-la-carga-thumb.jpg" alt="Inicio de partida: a la carga"></a>
+      <a class="wide" href="img/screens/horda-seleccion-de-heroe.jpg"><img loading="lazy" src="img/screens/horda-seleccion-de-heroe-thumb.jpg" alt="Pantalla de selección de héroes"></a>
+      <a href="img/screens/horda-map-calle.jpg"><img loading="lazy" src="img/screens/horda-map-calle.jpg" alt="Calle del barrio"></a>
+      <a href="img/screens/horda-titulo.jpg"><img loading="lazy" src="img/screens/horda-titulo-thumb.jpg" alt="Pantalla de título sobre el barrio"></a>
+    </div>
+  </div>
+</section>
+
+<section id="personajes">
+  <div class="wrap">
+    <p class="eyebrow">Personajes</p>
+    <h2>10 héroes</h2>
+    <div class="heroes">
+      <article class="hc" style="--c:#F2C94C"><img loading="lazy" src="img/heroes/vega.jpg" alt="Vega"><div class="in"><h3>Vega</h3><p class="role">Tiradora · La francotiradora</p><p class="wp">Fusil táctico</p><ul><li><span>Q</span>Granada</li><li><span>E</span>Munición incendiaria</li><li><span>R</span>Ataque aéreo</li></ul></div></article>
+      <article class="hc" style="--c:#FF8A3D"><img loading="lazy" src="img/heroes/brasa.jpg" alt="Brasa"><div class="in"><h3>Brasa</h3><p class="role">Tanque · El muro humano</p><p class="wp">Escopeta</p><ul><li><span>Q</span>Botiquín</li><li><span>E</span>Barricada</li><li><span>R</span>Lanzallamas</li></ul></div></article>
+      <article class="hc" style="--c:#B48CFF"><img loading="lazy" src="img/heroes/sombra.jpg" alt="Sombra"><div class="in"><h3>Sombra</h3><p class="role">Asesina · La sombra silenciosa</p><p class="wp">Pistola pesada</p><ul><li><span>Q</span>Destello</li><li><span>E</span>Paso sombrío</li><li><span>R</span>Ejecución</li></ul></div></article>
+      <article class="hc" style="--c:#E6E9EE"><img loading="lazy" src="img/heroes/titan.jpg" alt="Titán"><div class="in"><h3>Titán</h3><p class="role">Tanque · El mecha de asalto</p><p class="wp">Minigun</p><ul><li><span>Q</span>Carga</li><li><span>E</span>Escudo</li><li><span>R</span>Impacto sísmico</li></ul></div></article>
+      <article class="hc" style="--c:#FF6FC8"><img loading="lazy" src="img/heroes/morgana.jpg" alt="Morgana"><div class="in"><h3>Morgana</h3><p class="role">Maga · La hechicera del fuego</p><p class="wp">Orbe arcano</p><ul><li><span>Q</span>Bola de fuego</li><li><span>E</span>Parpadeo</li><li><span>R</span>Tormenta arcana</li></ul></div></article>
+      <article class="hc" style="--c:#7CF07C"><img loading="lazy" src="img/heroes/zyx.jpg" alt="Zyx"><div class="in"><h3>Zyx</h3><p class="role">Extraterrestre · El visitante</p><p class="wp">Rayo de plasma</p><ul><li><span>Q</span>Abducción</li><li><span>E</span>Camuflaje</li><li><span>R</span>Nave nodriza</li></ul></div></article>
+      <article class="hc" style="--c:#FF5A5A"><img loading="lazy" src="img/heroes/don_vito.jpg" alt="Don Vito"><div class="in"><h3>Don Vito</h3><p class="role">Jefe mafioso · El Padrino</p><p class="wp">Tommy gun</p><ul><li><span>Q</span>Molotov</li><li><span>E</span>Llamar a los muchachos</li><li><span>R</span>Ataque desde el auto</li></ul></div></article>
+      <article class="hc" style="--c:#6FD3FF"><img loading="lazy" src="img/heroes/dr_voltio.jpg" alt="Dr. Voltio"><div class="in"><h3>Dr. Voltio</h3><p class="role">Científico loco · El genio desquiciado</p><p class="wp">Cañón Tesla</p><ul><li><span>Q</span>Poción ácida</li><li><span>E</span>Torreta Tesla</li><li><span>R</span>Mutación</li></ul></div></article>
+      <article class="hc" style="--c:#FFD86B"><img loading="lazy" src="img/heroes/zeus.jpg" alt="Zeus"><div class="in"><h3>Zeus</h3><p class="role">Dios · Señor del Olimpo</p><p class="wp">Relámpago</p><ul><li><span>Q</span>Trueno</li><li><span>E</span>Vuelo divino</li><li><span>R</span>Ira del Olimpo</li></ul></div></article>
+      <article class="hc" style="--c:#FF9A4D"><img loading="lazy" src="img/heroes/ragnar.jpg" alt="Ragnar"><div class="in"><h3>Ragnar</h3><p class="role">Leyenda · El vikingo inmortal</p><p class="wp">Hacha de guerra</p><ul><li><span>Q</span>Hacha arrojadiza</li><li><span>E</span>Grito de guerra</li><li><span>R</span>Valhalla</li></ul></div></article>
+    </div>
+
+    <h3 style="margin-top:56px;font-size:40px">La Horda</h3>
+    <div class="horde">
+      <article class="hc" style="--c:#9BE15D"><img loading="lazy" src="img/heroes/zombie_normal.jpg" alt="Zombi normal"><div class="in"><h3>Infectado</h3><p class="wp" style="color:#C9CED6">Lento, pero nunca viene solo. Agarra y no suelta.</p></div></article>
+      <article class="hc" style="--c:#9BE15D"><img loading="lazy" src="img/heroes/zombie_runner.jpg" alt="Zombi corredor"><div class="in"><h3>Corredor</h3><p class="wp" style="color:#C9CED6">Rápido. Llega antes de que termines de recargar.</p></div></article>
+      <article class="hc" style="--c:#FF6A2B"><img loading="lazy" src="img/heroes/caja.jpg" alt="Caja de suministros"><div class="in"><h3>La caja</h3><p class="wp" style="color:#C9CED6">El objetivo. Quien la carga brilla, hace ruido y se ve en el mapa.</p></div></article>
+    </div>
+    <p style="margin-top:18px;color:var(--muted);font-size:16px">También hay explosivos, escupidores, gritones y brutos.</p>
+  </div>
+</section>
+
+<section id="mecanicas">
+  <div class="wrap">
+    <p class="eyebrow">Cómo se juega</p>
+    <h2>Pelea, agarra la caja, escapa</h2>
+    <div class="mech">
+      <div class="mc"><img loading="lazy" src="img/screens/horda-tiroteo-thumb.jpg" alt="Combate a distancia"><div class="in"><p class="n">01 · Disparo táctico</p><p>Apuntas con clic derecho y cada bala cuenta: la cabeza hace doble daño y las piernas aturden.</p></div></div>
+      <div class="mc"><img loading="lazy" src="img/screens/horda-enemigo-tiene-la-caja-thumb.jpg" alt="Disputa por la caja"><div class="in"><p class="n">02 · Extracción</p><p>Robas la caja y la llevas a una zona dorada mientras el rival y la horda intentan quitártela.</p></div></div>
+      <div class="mc"><img loading="lazy" src="img/screens/horda-edificio-colapsando-thumb.jpg" alt="Destrucción"><div class="in"><p class="n">03 · Todo se rompe</p><p>Los explosivos abren huecos en paredes y pisos. Si se pierde el primer piso, el edificio entero se viene abajo.</p></div></div>
+    </div>
+    <table class="strats" aria-label="Estratagemas">
+      <thead><tr><th>Estratagema</th><th>Código</th><th>Efecto</th></tr></thead>
+      <tbody>
+        <tr><td>Ataque Eagle</td><td class="code">↑ → ↓ →</td><td>Línea de bombas</td></tr>
+        <tr><td>Disparo orbital</td><td class="code">→ → ↑</td><td>Un impacto enorme</td></tr>
+        <tr><td>Bombardeo 380 mm</td><td class="code">→ ↓ ↑ ↑ ← ↓ ↓</td><td>Caos en un área grande</td></tr>
+        <tr><td>Napalm Eagle</td><td class="code">↑ → ↓ ↑</td><td>Fuego que dura</td></tr>
+        <tr><td>Reabastecimiento</td><td class="code">↓ ↓ ↑ →</td><td>Munición y vida</td></tr>
+        <tr><td>Torreta centinela</td><td class="code">↓ ↑ → → ↑</td><td>Dispara sola 30 s</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="presentacion">
+  <div class="wrap">
+    <p class="eyebrow">Proyecto final · Diseño de Videojuegos</p>
+    <h2>Presentación</h2>
+    <div class="deck" id="deck" tabindex="0" aria-label="Presentación: usa las flechas para avanzar">
+      <img id="deckImg" src="img/deck/slide_01.jpg" alt="Diapositiva 1 de la presentación de HORDA">
+      <button class="dp" aria-label="Diapositiva anterior">‹</button>
+      <button class="dn" aria-label="Diapositiva siguiente">›</button>
+    </div>
+    <div class="deckbar">
+      <span id="deckNum">1 / 17</span>
+      <div class="thumbs" id="thumbs"></div>
+      <a class="btn" href="download/HORDA_presentacion.pdf" target="_blank" rel="noopener">Descargar PDF</a>
+    </div>
+  </div>
+</section>
+
+<section id="logos">
+  <div class="wrap">
+    <p class="eyebrow">Identidad</p>
+    <h2>Logos e icono</h2>
+    <div class="logos">
+      <div class="lg"><div class="pv" style="background:#0D0F14"><img src="img/logo/horda-logo.png" alt="Logo principal"></div><a href="img/logo/horda-logo.png" download>Logo principal · PNG</a></div>
+      <div class="lg"><div class="pv checker"><img src="img/logo/horda-logo-blanco.png" alt="Logo blanco"></div><a href="img/logo/horda-logo-blanco.png" download>Logo blanco · PNG</a></div>
+      <div class="lg"><div class="pv light"><img src="img/logo/horda-logo-negro.png" alt="Logo negro"></div><a href="img/logo/horda-logo-negro.png" download>Logo negro · PNG</a></div>
+      <div class="lg"><div class="pv" style="background:#0D0F14"><img src="img/logo/horda-icono.png" alt="Icono"></div><a href="img/logo/horda-icono.png" download>Icono 1024 · PNG</a></div>
+    </div>
+    <p style="margin-top:22px;color:var(--muted);font-size:16px">Colores: <span style="color:#FF6A2B">■ #FF6A2B</span> · <span style="color:#9BE15D">■ #9BE15D</span> · <span style="color:#EDE6DA">■ #EDE6DA</span> · ■ #0D0F14 &nbsp;·&nbsp; Tipografías: Bebas Neue y Barlow Condensed</p>
+  </div>
+</section>
+
+<section id="equipo">
+  <div class="wrap">
+    <p class="eyebrow">Créditos</p>
+    <h2>Equipo y contacto</h2>
+    <div class="cols">
+      <div class="box">
+        <h3>Equipo</h3>
+        <ul>
+          <li><b>Jose Daniel Ortiz Quintero</b> · dirección, diseño de juego, programación, arte técnico, audio y tráiler</li>
+        </ul>
+        <p style="margin-top:14px">Proyecto del curso Diseño de Videojuegos · Ingeniería Multimedia · Universidad de San Buenaventura Cali.</p>
+      </div>
+      <div class="box">
+        <h3>Herramientas y recursos</h3>
+        <ul>
+          <li>Unity 6 · URP e Input System</li>
+          <li>Personajes y animaciones: Mixamo (Adobe)</li>
+          <li>Tipografías: Bebas Neue y Barlow Condensed (SIL Open Font License)</li>
+          <li>Edificios, texturas, efectos, IA, destrucción y red: código propio en C# (35 scripts, unas 14.700 líneas)</li>
+          <li>Sonido del juego y música del tráiler: sintetizados por código</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Contacto</h3>
+        <ul>
+          <li>Instagram: <a href="https://www.instagram.com/j.gamesindustries/" target="_blank" rel="noopener">@j.gamesindustries</a></li>
+          <li>GitHub: <a href="https://github.com/JoseOrtizz1807" target="_blank" rel="noopener">JoseOrtizz1807</a></li>
+          <li>itch.io: próximamente</li>
+        </ul>
+        <p style="margin-top:14px">Las capturas y logos de esta página se pueden usar libremente para notas y reseñas sobre HORDA.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>HORDA · © 2026 Jose Daniel Ortiz Quintero · <a href="https://www.instagram.com/j.gamesindustries/" target="_blank" rel="noopener">@j.gamesindustries</a></span>
+    <span>Formato de press kit inspirado en <a href="https://dopresskit.com/">presskit()</a></span>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Captura ampliada">
+  <button class="x" aria-label="Cerrar">×</button>
+  <button class="p" aria-label="Anterior">‹</button>
+  <img alt="">
+  <button class="nx" aria-label="Siguiente">›</button>
+  <a class="dl" href="#" download>Descargar en alta resolución</a>
+</div>
+
+<script>
+// ===== Enlaces opcionales: pon aquí tus links y se activan solos =====
+const ITCH_URL = "";        // ej. "https://tuusuario.itch.io/horda"
+const YOUTUBE_ID = "";      // ej. "dQw4w9WgXcQ" (el código que va después de watch?v=)
+
+if (ITCH_URL) {
+  const a = document.getElementById('itch');
+  a.href = ITCH_URL; a.textContent = 'Jugar en itch.io'; a.classList.remove('off'); a.removeAttribute('aria-disabled');
+}
+if (YOUTUBE_ID) {   // si subes el tráiler a YouTube, se usa ese reproductor
+  const v = document.getElementById('video');
+  v.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + YOUTUBE_ID + '" title="Tráiler de HORDA" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+}
+
+// ===== Visor de la presentación =====
+(() => {
+  const N = 17, img = document.getElementById('deckImg'), num = document.getElementById('deckNum'), th = document.getElementById('thumbs');
+  let i = 0;
+  const src = k => 'img/deck/slide_' + String(k + 1).padStart(2, '0') + '.jpg';
+  for (let k = 0; k < N; k++) {
+    const b = document.createElement('button');
+    b.setAttribute('aria-label', 'Ir a la diapositiva ' + (k + 1));
+    b.innerHTML = '<img loading="lazy" alt="" src="' + src(k) + '">';
+    b.onclick = () => go(k); th.appendChild(b);
+  }
+  function go(k) {
+    i = (k + N) % N; img.src = src(i); img.alt = 'Diapositiva ' + (i + 1) + ' de la presentación de HORDA';
+    num.textContent = (i + 1) + ' / ' + N;
+    [...th.children].forEach((b, j) => b.classList.toggle('on', j === i));
+    th.children[i].scrollIntoView({ block: 'nearest', inline: 'center', behavior: 'smooth' });
+    const pre = new Image(); pre.src = src((i + 1) % N);
+  }
+  document.querySelector('.deck .dp').onclick = () => go(i - 1);
+  document.querySelector('.deck .dn').onclick = () => go(i + 1);
+  document.getElementById('deck').addEventListener('keydown', e => { if (e.key === 'ArrowLeft') go(i - 1); if (e.key === 'ArrowRight') go(i + 1); });
+  let sx = null;
+  img.addEventListener('touchstart', e => sx = e.touches[0].clientX, { passive: true });
+  img.addEventListener('touchend', e => { if (sx === null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1)); sx = null; });
+  th.children[0].classList.add('on');
+})();
+
+// ===== Visor de capturas =====
+const links = [...document.querySelectorAll('#gallery a')];
+const lb = document.getElementById('lb'), img = lb.querySelector('img'), dl = lb.querySelector('.dl');
+let cur = 0;
+function show(i){
+  cur = (i + links.length) % links.length;
+  img.src = links[cur].href; img.alt = links[cur].querySelector('img').alt;
+  dl.href = links[cur].href;
+  lb.classList.add('on'); document.body.style.overflow = 'hidden';
+}
+function hide(){ lb.classList.remove('on'); document.body.style.overflow = ''; }
+links.forEach((a, i) => a.addEventListener('click', e => { e.preventDefault(); show(i); }));
+lb.querySelector('.x').onclick = hide;
+lb.querySelector('.p').onclick = () => show(cur - 1);
+lb.querySelector('.nx').onclick = () => show(cur + 1);
+lb.addEventListener('click', e => { if (e.target === lb) hide(); });
+document.addEventListener('keydown', e => {
+  if (!lb.classList.contains('on')) return;
+  if (e.key === 'Escape') hide();
+  if (e.key === 'ArrowLeft') show(cur - 1);
+  if (e.key === 'ArrowRight') show(cur + 1);
+});
+</script>
+</body>
+</html>
